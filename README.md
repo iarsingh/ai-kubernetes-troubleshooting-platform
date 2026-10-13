@@ -1,5 +1,12 @@
 # AI Kubernetes Troubleshooting Platform
 
+## Overview
+
+An AI, DevOps and SRE exercise that turns posted Kubernetes events into a troubleshooting hypothesis. It applies a CrashLoop heuristic behind `POST /agent/run`, packaged as a platform-style service. A versioned `/v1` ops API adds workspaces, tenant isolation, job approval and audit, and the service ships with a Dockerfile, a docker-compose file and a pytest suite run in GitHub Actions.
+
+- **Built with:** Python, pytest, Docker, GitHub Actions
+- **Scope:** Local laptop lab; it does not call a hosted model and does not apply production changes.
+
 <!-- project-guide:start -->
 ## Project guide
 
